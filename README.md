@@ -101,3 +101,41 @@ _'payment_id '(primary key )
   -A**Booking **belongs to both  a **user(guest)** and a property**
   -A**Review** is created by a **user** for a **Property**
   -A **payemnt** belongs to a **Booking**.
+
+  #API Security
+  ##Objectives
+
+  Understand the importance of securing the backend APIs for the Air bnb clone project .
+
+-##Key security Measures 
+
+## 1. Authentication 
+**What it is :**Ensures that only registered users can access the system by verifying their identity (E.g.,Using JWT tokens or OAuth).
+-**Why it's crucial:**Protects user accouts and sensitive information from unauthorized access 
+-----
+### 2. Authorized access 
+**What it is :88 Determines what actions an authenticated user is allowed to perfom ( eg authenticated user can update their own listings) 
+-**Why its crucial:** prevents malicious users from acessing or modifying data they dont own ,ensuring data integrity. 
+-----
+### 3. Rate limiting & Threat Protection 
+-**What it is:** Limits the number of request a client can make in acertain period of time to prevent abuse (eg, brute-force login attempts)
+-**Why is this crucial:** Protects the APIs from denial-of-service attack and ensures fair usage of resources .
+------
+### 4. Data Encryption 
+-**What it is:**Encrypts sensitive data during storage and transmission (eg,using HTTPS/TLS and hashed password )
+-**Why is it curucial**Protects sensitive information such as user credentials ,personal details, and payment data from being exposed or intercepted 
+------
+
+## 5. Secure Payment Handling 
+-**What its is :** Ensures all payment transaction are securely processed via trusted third party  providers (eg, stripe, PayPal) 
+-**Why its crucial :** Prevents fraud and financial data breaches ,protecting both users and the platforms reputation 
+------
+## Summary 
+API Security is essential for ;
+-Protecting **User data ** from leaks and identity theft. 
+Securing **Payments** and financial information .
+-Maintaining **trust** between the platforms and its users 
+-Ensuring **System reliabilitu ** by preventing malicious attacks. 
+git commit-m'added security section with the key measures and importance'
+git and readme .md 
+----
