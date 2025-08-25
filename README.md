@@ -30,3 +30,8 @@ A practice project to build an Airbnb clone for learning back-end development
    -**Express .js**_A lightweight Node.js framework used to build Restful APIs,manages routes ,and handles business logics.
    -**MongoDB/PostgreSQL**_The Database that stores user data ,property listings,bookings and other important information .MongoDB(NoSQL)is flexible for unstructured data ,while PostgreSQL(SQL) ensures relational data consistency.
    -**Git&Github**_Version control tools for tracking changes ,collaborating and hosting the project code .
+Now you can ;
+1.Open' README.md 'file .
+2. DElete everything inside it .
+3. Paste the full content above .
+4. Commit changes with a message like; 
