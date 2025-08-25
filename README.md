@@ -139,3 +139,22 @@ Securing **Payments** and financial information .
 git commit-m'added security section with the key measures and importance'
 git and readme .md 
 ----
+
+## CI/CD Pipline 
+##Objectives 
+Understand how CI-Cd (Continous intergration and contious Deployment) Pipline contributes to the development process for the Airbnb clone project 
+##What is a CI_CD pipline? 
+-**Continous intergration CI :** Every time code is pushed to the repository,it is automatically tested and validated to ensure it intergrates smoothly with the exsisting codebase 
+-**Continously DEployment CD:** After code passes testing .it can be automatically deployed to staging or production environment  without manual steps .
+##Why is it important ?
+-**faster development :**Automates repetetive tasks so developers can focus on building feartures 
+-**Improved quality:** Ensures that bugs are caught early through automated testing .
+-**Consistency :** Provides reliable and repeatable process for deployments 
+- ** Collaboration :** Makes it easier for multiple developers to work on the same project with fewer conflict
+- Tools for CI_CD
+- -**Github Action :** Automate testing ,building and deployment directly from github.
+- **Docker:**Package application into containers for consistent deployments across environments .
+- **Jenkins?CircleCI:** Popular CI_CD tools that provide advanced pipline management .
+- **AWS/Vercel/Netlify:**For hosting and automating deployments.
+  git commit-m 'Added CI-CD Pipline Section with explantion and tools .
+  git and readme.md
