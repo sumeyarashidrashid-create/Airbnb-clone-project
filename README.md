@@ -35,3 +35,69 @@ Now you can ;
 2. DElete everything inside it .
 3. Paste the full content above .
 4. Commit changes with a message like; .
+
+#Databaase Design
+##Objectives
+Understand how the database will be structured for the Airbnb clone project 
+##Key Entities 
+
+**Fields:**
+-'user _id '(primary key) 
+-'name'
+'email'
+;password _harsh;
+'date_joined 
+
+**Notes :**
+Auser can own multiple properties .A user can also make multiple bookings 
+----
+### 2.Properties 
+**Fields :**
+-'Property_Id"(Primary Key)
+-'owner_id'(Foreign key _Users.user_id)
+-'title'
+-description'
+-Location'
+**Notes:**
+A property belongs to a single user (owner). A property can have a multiple bookings and multiple reviews
+----
+
+### 3. Bookings 
+**Fields:** 
+-'booking _id '(primary Key )
+-'property_id'(Foreign key_properties.property_id) 
+-'guest _id' (foreign key _users.user_id) 
+'start _date'
+'end _date 
+-'status' 
+**Notes:**
+A booking belongs to one property and one user (guest).A booking can be linked to a payement .
+----
+### 4. Reviews 
+**Fields:**
+-'review_id (primary key ) 
+'property_id '(Foreign key_properties.property _id) 
+'user_id'(Foreign key_users.user _id) 
+'rating
+-'comment'
+-date_posted
+
+**Notes:**
+A review is created by user for a property. A property can have many reviews .
+-----
+#### 5. Payments 
+**Fields:**
+_'payment_id '(primary key ) 
+- 'booking _id'(Foreign key_Bookings.booking _id )
+- -'amounts '
+- -'payment dates'
+- payment _status'
+  **Notes:**
+  A payment is always tied to abooking. A booking has exactly one payment record.
+  -----
+  ### 5. Relationships
+  -A **user** can own multiple **properties**
+  -A**Property** can have amultiple **Bookings** and **Reviews**
+  -A**Booking **belongs to both  a **user(guest)** and a property**
+  -A**Review** is created by a **user** for a **Property**
+  -A **payemnt** belongs to a **Booking**.
