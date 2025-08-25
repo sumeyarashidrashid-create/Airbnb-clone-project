@@ -34,4 +34,4 @@ Now you can ;
 1.Open' README.md 'file .
 2. DElete everything inside it .
 3. Paste the full content above .
-4. Commit changes with a message like; 
+4. Commit changes with a message like; .
